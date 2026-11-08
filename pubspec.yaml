@@ -1,0 +1,57 @@
+name: typemaster
+description: TypeMaster - Treinamento de Digitação e Mouse para Escola de Informática
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Banco de dados offline
+  sqflite: ^2.3.3+1
+  sqflite_common_ffi: ^2.3.4+4
+
+  # Estado
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Navegação
+  go_router: ^14.3.0
+
+  # Gráficos
+  fl_chart: ^0.69.0
+
+  # Fontes e UI
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+
+  # Som
+  audioplayers: ^6.0.0
+
+  # Utilitários
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  shared_preferences: ^2.3.2
+  intl: ^0.20.2
+  uuid: ^4.4.2
+  collection: ^1.18.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.12
+  riverpod_generator: ^2.4.3
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/
+    - assets/images/
+    - assets/google_fonts/
+
